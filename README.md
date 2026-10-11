@@ -1,7 +1,7 @@
 # Engent
 
 > ## 📦 ARŞİV — devre dışı (2026-10-11)
-> Proje artık kullanılmıyor (iş yeni Debian sunucuya taşındı) ama silinmedi. Bu klasör olduğu gibi saklanır,
+> Proje artık kullanılmıyor ama silinmedi. Bu klasör olduğu gibi saklanır,
 > aşağıdaki **Yeniden ayağa kaldırma** adımlarıyla tekrar çalışır.
 
 ## Yeniden ayağa kaldırma
