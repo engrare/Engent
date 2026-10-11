@@ -1,0 +1,20 @@
+{
+  "web": {
+    "path": "C:/Users/kayas/code/my-web-app",
+    "base": "main",
+    "engine": "claude",
+    "setup": "npm ci",
+    "test": "npm test",
+    "deploy": "npx vercel deploy --yes --token %VERCEL_TOKEN%",
+    "deploy_env": ["VERCEL_TOKEN"],
+    "auto_edits": false,
+    "auto_allow": ["^npm (ci|install)$"],
+    "push_on_merge": false
+  },
+  "api-aider": {
+    "path": "C:/Users/kayas/code/my-api",
+    "engine": "pty",
+    "cmd": ["aider", "--no-auto-commits", "--no-pretty", "--message", "{task}"],
+    "test": "python -m pytest -q"
+  }
+}

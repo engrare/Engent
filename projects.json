@@ -1,0 +1,18 @@
+{
+  "3d-main": {
+    "path": "C:\\Users\\kayas\\Desktop\\3d-main",
+    "base": "main",
+    "engine": "claude"
+  },
+  "engraresite-main": {
+    "path": "C:\\Users\\kayas\\Desktop\\EngrareSite-main",
+    "base": "main",
+    "engine": "claude"
+  },
+  "sandbox": {
+    "path": "C:/Users/kayas/engent-sandbox",
+    "base": "main",
+    "engine": "claude",
+    "test": "python -m unittest -q"
+  }
+}

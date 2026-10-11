@@ -1,0 +1,341 @@
+2026-09-28 19:04:34,364 WARNING engent.tg: HTML reddedildi, düz metne düşülüyor: sendMessage: Bad Request: chat not found
+2026-09-28 19:04:34,483 ERROR engent: ana döngü çöktü; 10 sn sonra yeniden başlıyor
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 59, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 123, in run
+    asyncio.run(main())
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 90, in main
+    await tg.send("🟢 <b>Engent çevrimiçi</b>" + (f"\n⚠️ PATH'te yok: {', '.join(missing)}" if missing else ""),
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 64, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+2026-09-28 19:04:44,854 WARNING engent.tg: HTML reddedildi, düz metne düşülüyor: sendMessage: Bad Request: chat not found
+2026-09-28 19:04:45,133 ERROR engent: ana döngü çöktü; 10 sn sonra yeniden başlıyor
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 59, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 123, in run
+    asyncio.run(main())
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 90, in main
+    await tg.send("🟢 <b>Engent çevrimiçi</b>" + (f"\n⚠️ PATH'te yok: {', '.join(missing)}" if missing else ""),
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 64, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+2026-09-28 19:04:55,594 WARNING engent.tg: HTML reddedildi, düz metne düşülüyor: sendMessage: Bad Request: chat not found
+2026-09-28 19:04:55,797 ERROR engent: ana döngü çöktü; 10 sn sonra yeniden başlıyor
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 59, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 123, in run
+    asyncio.run(main())
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "C:\Users\kayas\Desktop\Engent\engent\__main__.py", line 90, in main
+    await tg.send("🟢 <b>Engent çevrimiçi</b>" + (f"\n⚠️ PATH'te yok: {', '.join(missing)}" if missing else ""),
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 64, in send
+    return await self.call("sendMessage", **params)
+  File "C:\Users\kayas\Desktop\Engent\engent\tg.py", line 47, in call
+    raise RuntimeError(f"{method}: {data.get('description')}")
+RuntimeError: sendMessage: Bad Request: chat not found
+2026-09-28 19:05:09,229 WARNING engent.tg: HTML reddedildi, düz metne düşülüyor: sendMessage: Bad Request: chat not found
+2026-09-28 19:05:09,517 WARNING engent: bildirim gönderilemedi (bota /start yazıldı mı?): sendMessage: Bad Request: chat not found
+2026-09-28 22:16:48,309 WARNING engent.tg: getUpdates: 
+2026-09-29 07:22:31,159 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 08:12:29,583 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 08:14:08,302 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 10:08:19,687 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 10:33:59,490 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 10:36:03,547 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 13:41:15,071 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-09-29 13:41:16,087 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-29 13:41:18,092 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-29 13:41:22,107 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-29 13:41:30,109 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-29 13:43:09,682 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 19:00:29,902 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 22:17:23,469 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-09-29 23:05:42,701 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 23:12:16,369 ERROR claude_agent_sdk._internal.query: Fatal error in message reader: Failed to decode JSON: JSON message exceeded maximum buffer size of 1048576 bytes...
+2026-09-29 23:12:21,406 ERROR engent.pipeline: görev #11
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\pipeline.py", line 265, in _run
+    await asyncio.wait_for(self._flow(tid, head, prompt), cfg.TASK_TIMEOUT)
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\kayas\Desktop\Engent\engent\pipeline.py", line 298, in _flow
+    summary = await engine.run(prompt or t["prompt"])
+  File "C:\Users\kayas\Desktop\Engent\engent\engines.py", line 133, in run
+    async for m in self.client.receive_response():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\client.py", line 588, in receive_response
+    async for message in self.receive_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\client.py", line 257, in receive_messages
+    async for data in self._query.receive_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\query.py", line 931, in receive_messages
+    raise exc
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\query.py", line 336, in _read_messages
+    async for message in self.transport.read_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\transport\subprocess_cli.py", line 1109, in _read_messages_impl
+    guard(len(line))
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\transport\subprocess_cli.py", line 1099, in guard
+    raise SDKJSONDecodeError(
+claude_agent_sdk._errors.CLIJSONDecodeError: Failed to decode JSON: JSON message exceeded maximum buffer size of 1048576 bytes...
+2026-09-29 23:13:10,768 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-29 23:26:43,479 ERROR claude_agent_sdk._internal.query: Fatal error in message reader: Failed to decode JSON: JSON message exceeded maximum buffer size of 1048576 bytes...
+2026-09-29 23:26:48,514 ERROR engent.pipeline: görev #11
+Traceback (most recent call last):
+  File "C:\Users\kayas\Desktop\Engent\engent\pipeline.py", line 265, in _run
+    await asyncio.wait_for(self._flow(tid, head, prompt), cfg.TASK_TIMEOUT)
+  File "C:\Users\kayas\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py", line 445, in wait_for
+    return fut.result()
+  File "C:\Users\kayas\Desktop\Engent\engent\pipeline.py", line 298, in _flow
+    summary = await engine.run(prompt or t["prompt"])
+  File "C:\Users\kayas\Desktop\Engent\engent\engines.py", line 133, in run
+    async for m in self.client.receive_response():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\client.py", line 588, in receive_response
+    async for message in self.receive_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\client.py", line 257, in receive_messages
+    async for data in self._query.receive_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\query.py", line 931, in receive_messages
+    raise exc
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\query.py", line 336, in _read_messages
+    async for message in self.transport.read_messages():
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\transport\subprocess_cli.py", line 1113, in _read_messages_impl
+    guard(framer.pending_len)
+  File "C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_internal\transport\subprocess_cli.py", line 1099, in guard
+    raise SDKJSONDecodeError(
+claude_agent_sdk._errors.CLIJSONDecodeError: Failed to decode JSON: JSON message exceeded maximum buffer size of 1048576 bytes...
+2026-09-29 23:48:18,819 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 00:15:37,112 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 00:48:38,914 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 11:16:13,221 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 11:18:10,212 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 17:04:56,703 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 17:09:18,026 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-09-30 22:17:02,221 WARNING engent.tg: getUpdates: ReadError('')
+2026-09-30 22:17:03,257 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-30 22:17:05,258 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-30 22:17:09,268 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-30 22:17:17,277 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-09-30 22:17:52,657 WARNING engent.tg: getUpdates: ReadError('')
+2026-10-01 09:31:20,835 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-10-01 20:21:38,752 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-01 20:21:59,760 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:22:21,756 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:22:45,765 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:23:13,780 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:23:49,811 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:24:41,831 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:26:01,846 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:27:21,857 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:28:41,873 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:30:01,882 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:31:21,896 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:32:41,906 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:34:01,922 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:35:21,942 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:36:41,957 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:38:01,969 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:39:21,987 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:40:42,006 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:42:02,028 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 20:43:22,053 WARNING engent.tg: getUpdates: ConnectTimeout('')
+2026-10-01 22:18:12,920 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-02 07:48:57,928 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-10-02 08:05:43,557 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-10-02 08:06:53,416 INFO claude_agent_sdk._internal.transport.subprocess_cli: Using bundled Claude Code CLI: C:\Users\kayas\Desktop\Engent\.venv\lib\site-packages\claude_agent_sdk\_bundled\claude.exe
+2026-10-02 22:17:59,719 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-03 00:37:49,120 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-03 00:37:50,138 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:37:52,149 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:37:56,161 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:38:04,177 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:38:20,187 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:38:52,193 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:39:52,205 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:40:52,216 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:41:52,224 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:42:52,241 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:43:52,249 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:44:52,251 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:45:52,263 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:46:52,276 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:47:52,290 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:48:52,304 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:49:52,308 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:50:52,316 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:51:52,321 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:52:52,330 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:53:52,335 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:54:52,335 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:55:52,349 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:56:52,353 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:57:52,361 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:58:52,362 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 00:59:52,378 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:00:52,384 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:01:52,394 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:02:52,397 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:03:52,412 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:04:52,424 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:05:52,431 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:06:52,443 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:07:52,455 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:08:52,469 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:09:52,475 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:10:52,481 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:11:52,494 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:12:52,503 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:13:52,504 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:14:52,521 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:15:52,529 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:16:52,544 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:17:52,552 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:18:52,558 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:19:52,563 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:20:52,577 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:21:52,592 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:22:52,595 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:23:52,607 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:24:52,611 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:25:52,619 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:26:52,630 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:27:52,636 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:28:52,647 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:29:52,659 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:30:52,661 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:31:52,673 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:32:52,685 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:33:52,697 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:34:52,708 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:35:52,709 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:36:52,723 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:37:52,732 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:38:52,747 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:39:52,756 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:40:52,768 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:41:52,770 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:42:52,774 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:43:52,783 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:44:52,787 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:45:52,792 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:46:52,797 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:47:52,799 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:48:52,808 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:49:52,819 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:50:52,822 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:51:52,824 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:52:52,837 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:53:52,851 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:54:52,855 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:55:52,865 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:56:52,869 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:57:52,883 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:58:52,895 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 01:59:52,909 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:00:52,912 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:01:52,919 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:02:52,934 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:03:52,945 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:04:52,959 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:05:52,970 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:06:52,978 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:07:52,981 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:08:52,985 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:09:52,995 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:10:53,000 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:11:53,012 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:12:53,014 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:13:53,017 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:14:53,031 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:15:53,039 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:16:53,044 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:17:53,048 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:18:53,059 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:19:53,072 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:20:53,083 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:21:53,093 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:22:53,105 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:23:53,112 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:24:53,118 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:25:53,130 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:26:53,142 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:27:53,149 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:28:53,157 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:29:53,167 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:30:53,180 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:31:53,183 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:32:53,198 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:33:53,206 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:34:53,217 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:35:53,229 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:36:53,240 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:37:53,250 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:38:53,262 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:39:53,276 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:40:53,281 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:41:53,295 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:42:53,300 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:43:53,313 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:44:53,322 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:45:53,330 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 02:46:53,334 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 12:42:39,814 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 12:42:40,819 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 12:42:42,827 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 12:43:24,211 WARNING engent.tg: getUpdates: ReadError('')
+2026-10-03 12:43:25,232 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-03 22:18:53,219 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-03 23:10:38,682 WARNING engent.tg: getUpdates: ReadError('')
+2026-10-04 11:57:02,523 WARNING engent.tg: getUpdates: ReadError('')
+2026-10-04 11:57:03,573 WARNING engent.tg: getUpdates: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-04 22:19:20,276 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-05 20:40:56,254 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-05 22:19:09,001 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-06 19:49:18,656 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-06 19:49:19,686 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-06 19:49:21,701 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-06 19:49:25,717 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-06 19:49:33,717 WARNING engent.tg: setMyCommands: ConnectError('[Errno 11001] getaddrinfo failed')
+2026-10-06 19:53:48,936 WARNING engent.tg: getUpdates: ReadError('')
+2026-10-06 22:20:17,953 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-08 22:20:57,970 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-09 04:13:58,263 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-09 04:15:45,400 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-09 22:20:53,276 WARNING engent.tg: getUpdates: ReadTimeout('')
+2026-10-10 22:21:59,305 WARNING engent.tg: getUpdates: ReadTimeout('')

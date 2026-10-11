@@ -1,0 +1,4 @@
+# 0.2.159: the win_amd64 wheel bundles claude.exe (0.2.160 has no Windows wheel yet)
+claude-agent-sdk==0.2.159
+pywinpty>=3.0.5
+httpx>=0.28

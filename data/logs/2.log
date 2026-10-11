@@ -1,0 +1,5 @@
+
+===== 3d engrare projesini bulabilir misin ona çalışacaz
+⚙ Bash {"command": "ls \"C:/Users/kayas\" 2>/dev/null; echo \"---worktrees---\"; ls \"C:/Users/kayas/engent-worktrees\" 2>/dev/null; echo \"---engent---\"; ls \"C:/Users/kayas/engent\" 2>/dev/null", "description": "List user home directory and worktree locations"}
+⚙ Bash {"command": "find \"C:/Users/kayas\" -maxdepth 4 -iname \"*engrav*\" -o -iname \"*engrar*\" 2>/dev/null | head -50", "description": "Search for folders/files matching engraver-like names"}
+⚙ Bash {"command": "echo \"== 3d.engrare ==\"; ls -la \"C:/Users/kayas/Desktop/Engrare/3d.engrare\" 2>/dev/null; echo \"== is it a git repo ==\"; git -C \"C:/Users/kayas/Desktop/Engrare/3d.engrare\" status 2>&1 | head -20; echo \"== engrare-app-website ==\"; ls -la \"C:/Users/kayas/Desktop/Engrare/the_others/engrare-app-website\" 2>/dev/null", "description": "Inspect the 3d.engrare project folder"}
